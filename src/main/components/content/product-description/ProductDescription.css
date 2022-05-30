@@ -1,0 +1,56 @@
+.product-text-container {
+    max-width: 560px;
+    padding: 20px 20px 20px 20px;
+}
+
+.company-name {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: var(--orange);
+    text-transform: uppercase;
+}
+
+.product-title {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+.product-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+}
+
+.offer {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.discount {
+    display: inline-block;
+    font-weight: 700;
+    margin-left: 20px;
+    padding: 0px 7px;
+    border-radius: 4px;
+    background-color: var(--pale-orange);
+    color: var(--orange);
+}
+
+.price {
+    color: var(--grayish-blue);
+    text-decoration: line-through;
+    font-size: 1rem;
+    margin-top: 12px;
+}
+
+@media (max-width: 576px) {
+    .price {
+        float: right;
+        margin-top: 22px;
+    }
+
+    .offer {
+        margin-bottom: 26px;
+    }
+}

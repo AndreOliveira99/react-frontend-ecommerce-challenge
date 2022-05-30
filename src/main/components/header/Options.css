@@ -1,0 +1,33 @@
+div.options {
+    margin-left: auto;
+    display: flex;
+}
+
+.options-item {
+    height: 40px;
+    margin: 0px 15px;
+}
+
+.options-item.cart {
+    padding: 10px;
+}
+
+.options-item.profile {
+    box-sizing: content-box;
+    border: solid white 2px;
+    border-radius: 50%;
+}
+
+.options-item.cart:hover {
+    color: var(--very-dark-blue);
+    cursor: pointer;
+}
+
+.options-item.profile:hover {
+    border: solid var(--orange) 2px;
+    cursor: pointer;
+}
+
+.options-item img {
+    height: 100%;
+}

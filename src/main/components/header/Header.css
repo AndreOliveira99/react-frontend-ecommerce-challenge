@@ -1,0 +1,6 @@
+header.header {
+    display: flex;
+    align-items: center;
+    border-bottom: solid var(--grayish-blue) 1px;
+    height: 100px;
+}

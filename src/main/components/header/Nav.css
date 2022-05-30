@@ -1,0 +1,20 @@
+nav.menu {
+    padding: 40px 40px;
+}
+
+a.nav-item {
+    padding: 38px 10px;
+    text-decoration: none;
+    color: var(--dark-grayish-blue);
+}
+
+a.nav-item:hover {
+    color: var(--very-dark-blue);
+    border-bottom: solid var(--orange) 3px;
+}
+
+@media (max-width: 768px) {
+    nav.menu {
+        display: none;
+    }
+}
